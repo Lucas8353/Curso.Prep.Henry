@@ -50,6 +50,7 @@ describe('nuevoNum', function() {
 describe('nuevoBool', function() {
   it('Deberia ser un booleano', function() {
     expect(typeof nuevoBool).toBe('boolean');
+    var nuevoBool = ""
   });
 });
 
